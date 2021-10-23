@@ -40,18 +40,6 @@ namespace Calculator
             }
         }
 
-        private void Minimize()
-        {
-            if (this.WindowState == FormWindowState.Minimized)
-            {
-                this.WindowState = FormWindowState.Normal;
-            }
-            else
-            {
-                this.WindowState = FormWindowState.Minimized;
-            }
-        }
-
         private void PrintNumber(Button btnName)
         {
             if (maxSize < 19)
